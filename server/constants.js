@@ -1,10 +1,15 @@
 'use strict';
 
-const SUPPORT_EMAIL = 'support@email.com';
-const NOREPLY_EMAIL = 'no-reply@email.com';
+const SUPPORT_EMAIL = 'admin@bitballoon.net';
+const NOREPLY_EMAIL = 'noreply@bitballoon.net';
 
-const MAILER_NAME = 'OpenTrade Mailer';
-const START_MESSAGE = 'OpenTrade started!';
+const MAILER_SMTP_HOST = 'smtp.gmail.com';
+const MAILER_SMTP_PORT = 465;
+const MAILER_SMTP_SECURE = true;
+const MAILER_SMTP_USER = 'noreply@bitballoon.net';
+const MAILER_SMTP_PASS = '';
+const MAILER_NAME = 'BitBalloon Mail';
+const START_MESSAGE = 'BitBalloon started!';
 
 exports.ALLOW_EMAIL_CHANGING = true;
 
