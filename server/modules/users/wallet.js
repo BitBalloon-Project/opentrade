@@ -153,7 +153,7 @@ exports.onGetAddress = function(req, res)
     });
 }
 
-exports.GetCoins = async function(active, callback)
+exports.GetCoins = function(active, callback)
 {
     if (!g_constants.dbTables['coins'])
         return setTimeout(exports.GetCoins, 2000, active, callback);
